@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingsTableViewController.h
 //  Glasses Water Tracker
 //
 //  Created by Immanuel Kannan on 24/06/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SettingsTableViewController : UITableViewController
 
 @end
-

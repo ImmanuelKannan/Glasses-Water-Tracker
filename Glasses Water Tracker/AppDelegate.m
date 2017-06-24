@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "StatsViewController.h"
+#import "TodayViewController.h"
+#import "SettingsTableViewController.h"
+#import "Constants.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) UITabBarController *tabBarController;
 
 @end
 
@@ -16,8 +22,41 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    [self setupTabBarController];
+    
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
     return YES;
+}
+
+- (NSArray *)viewControllers {
+    
+    StatsViewController *statsVC = [[StatsViewController alloc] init];
+    statsVC.title = @"Stats";
+    statsVC.tabBarItem.image = [UIImage imageNamed:@"TabBarIcon_Stats"];
+    
+    TodayViewController *todayVC = [[TodayViewController alloc] init];
+    todayVC.title = @"Today";
+    todayVC.tabBarItem.image = [UIImage imageNamed:@"TabBarIcon_Today"];
+    
+    SettingsTableViewController *settingsVC = [[SettingsTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    settingsVC.title = @"Settings";
+    
+    NSArray *vc = [NSArray arrayWithObjects:statsVC, todayVC, settingsVC, nil];
+    return vc;
+}
+
+- (void)setupTabBarController {
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController.viewControllers = [self viewControllers];
+    self.tabBarController.tabBar.tintColor = kBlueTintColor;
+    self.tabBarController.selectedIndex = 1;
+    
 }
 
 

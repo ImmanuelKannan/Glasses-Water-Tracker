@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		18AC7ED71EFEAC040014E7CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7ED61EFEAC040014E7CE /* AppDelegate.m */; };
-		18AC7EDA1EFEAC040014E7CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7ED91EFEAC040014E7CE /* ViewController.m */; };
-		18AC7EDD1EFEAC040014E7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7EDB1EFEAC040014E7CE /* Main.storyboard */; };
 		18AC7EE01EFEAC040014E7CE /* Glasses_Water_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7EDE1EFEAC040014E7CE /* Glasses_Water_Tracker.xcdatamodeld */; };
 		18AC7EE21EFEAC040014E7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7EE11EFEAC040014E7CE /* Assets.xcassets */; };
 		18AC7EE51EFEAC040014E7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7EE31EFEAC040014E7CE /* LaunchScreen.storyboard */; };
 		18AC7EE81EFEAC040014E7CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7EE71EFEAC040014E7CE /* main.m */; };
 		18AC7EF21EFEAC040014E7CE /* Glasses_Water_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7EF11EFEAC040014E7CE /* Glasses_Water_TrackerTests.m */; };
 		18AC7EFD1EFEAC050014E7CE /* Glasses_Water_TrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7EFC1EFEAC050014E7CE /* Glasses_Water_TrackerUITests.m */; };
+		18AC7F0C1EFEACCA0014E7CE /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7F0B1EFEACCA0014E7CE /* TodayViewController.m */; };
+		18AC7F101EFEAD090014E7CE /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7F0F1EFEAD090014E7CE /* StatsViewController.m */; };
+		18AC7F171EFEAD6D0014E7CE /* EntryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7F161EFEAD6D0014E7CE /* EntryManager.m */; };
+		18AC7F1A1EFEAECA0014E7CE /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7F191EFEAECA0014E7CE /* SettingsTableViewController.m */; };
+		1ED2C4FD7EF9C1BDB30995B8 /* libPods-Glasses Water TrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8BF317907CCC3DC5B188F8 /* libPods-Glasses Water TrackerTests.a */; };
+		61F749B02429A1E3099571F8 /* libPods-Glasses Water Tracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146E5D80503972C2688A9AAD /* libPods-Glasses Water Tracker.a */; };
+		64621803561A1305D09970C0 /* libPods-Glasses Water TrackerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B80D975033465438F949548 /* libPods-Glasses Water TrackerUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146E5D80503972C2688A9AAD /* libPods-Glasses Water Tracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Glasses Water Tracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A556E2F3068AFA0F28EA27 /* Pods-Glasses Water TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glasses Water TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Glasses Water TrackerTests/Pods-Glasses Water TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		18AC7ED21EFEAC040014E7CE /* Glasses Water Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glasses Water Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC7ED51EFEAC040014E7CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18AC7ED61EFEAC040014E7CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18AC7ED81EFEAC040014E7CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18AC7ED91EFEAC040014E7CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18AC7EDC1EFEAC040014E7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AC7EDF1EFEAC040014E7CE /* Glasses_Water_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Glasses_Water_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		18AC7EE11EFEAC040014E7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AC7EE41EFEAC040014E7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +57,22 @@
 		18AC7EF81EFEAC050014E7CE /* Glasses Water TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glasses Water TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC7EFC1EFEAC050014E7CE /* Glasses_Water_TrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glasses_Water_TrackerUITests.m; sourceTree = "<group>"; };
 		18AC7EFE1EFEAC050014E7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC7F0A1EFEACCA0014E7CE /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		18AC7F0B1EFEACCA0014E7CE /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		18AC7F0E1EFEAD090014E7CE /* StatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		18AC7F0F1EFEAD090014E7CE /* StatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		18AC7F151EFEAD6D0014E7CE /* EntryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryManager.h; sourceTree = "<group>"; };
+		18AC7F161EFEAD6D0014E7CE /* EntryManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryManager.m; sourceTree = "<group>"; };
+		18AC7F181EFEAECA0014E7CE /* SettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		18AC7F191EFEAECA0014E7CE /* SettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		18AC7F1B1EFEAFC20014E7CE /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4B1FED6C0EA78FBB651A93F0 /* Pods-Glasses Water TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glasses Water TrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Glasses Water TrackerUITests/Pods-Glasses Water TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B80D975033465438F949548 /* libPods-Glasses Water TrackerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Glasses Water TrackerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DFA24B9D155B02CA7B644B /* Pods-Glasses Water Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glasses Water Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Glasses Water Tracker/Pods-Glasses Water Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		BDC9FE33071D9E4808343491 /* Pods-Glasses Water TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glasses Water TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Glasses Water TrackerUITests/Pods-Glasses Water TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB8BF317907CCC3DC5B188F8 /* libPods-Glasses Water TrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Glasses Water TrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5764BF6F66F0BF9C01899A /* Pods-Glasses Water TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glasses Water TrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Glasses Water TrackerTests/Pods-Glasses Water TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFB8A3E5499D129DE68E11D1 /* Pods-Glasses Water Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glasses Water Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Glasses Water Tracker/Pods-Glasses Water Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F749B02429A1E3099571F8 /* libPods-Glasses Water Tracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED2C4FD7EF9C1BDB30995B8 /* libPods-Glasses Water TrackerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64621803561A1305D09970C0 /* libPods-Glasses Water TrackerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +110,8 @@
 				18AC7EF01EFEAC040014E7CE /* Glasses Water TrackerTests */,
 				18AC7EFB1EFEAC050014E7CE /* Glasses Water TrackerUITests */,
 				18AC7ED31EFEAC040014E7CE /* Products */,
+				84B1D68B025A288B01107CE8 /* Pods */,
+				1B267635FA08244BCC32F2CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +130,9 @@
 			children = (
 				18AC7ED51EFEAC040014E7CE /* AppDelegate.h */,
 				18AC7ED61EFEAC040014E7CE /* AppDelegate.m */,
-				18AC7ED81EFEAC040014E7CE /* ViewController.h */,
-				18AC7ED91EFEAC040014E7CE /* ViewController.m */,
-				18AC7EDB1EFEAC040014E7CE /* Main.storyboard */,
+				18AC7F1B1EFEAFC20014E7CE /* Constants.h */,
+				18AC7F141EFEAD5E0014E7CE /* Models */,
+				18AC7F0D1EFEACD10014E7CE /* Controllers */,
 				18AC7EE11EFEAC040014E7CE /* Assets.xcassets */,
 				18AC7EE31EFEAC040014E7CE /* LaunchScreen.storyboard */,
 				18AC7EE61EFEAC040014E7CE /* Info.plist */,
@@ -135,6 +160,52 @@
 			path = "Glasses Water TrackerUITests";
 			sourceTree = "<group>";
 		};
+		18AC7F0D1EFEACD10014E7CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18AC7F0E1EFEAD090014E7CE /* StatsViewController.h */,
+				18AC7F0F1EFEAD090014E7CE /* StatsViewController.m */,
+				18AC7F0A1EFEACCA0014E7CE /* TodayViewController.h */,
+				18AC7F0B1EFEACCA0014E7CE /* TodayViewController.m */,
+				18AC7F181EFEAECA0014E7CE /* SettingsTableViewController.h */,
+				18AC7F191EFEAECA0014E7CE /* SettingsTableViewController.m */,
+			);
+			name = Controllers;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		18AC7F141EFEAD5E0014E7CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18AC7F151EFEAD6D0014E7CE /* EntryManager.h */,
+				18AC7F161EFEAD6D0014E7CE /* EntryManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B267635FA08244BCC32F2CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				146E5D80503972C2688A9AAD /* libPods-Glasses Water Tracker.a */,
+				EB8BF317907CCC3DC5B188F8 /* libPods-Glasses Water TrackerTests.a */,
+				5B80D975033465438F949548 /* libPods-Glasses Water TrackerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B1D68B025A288B01107CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8A3E5499D129DE68E11D1 /* Pods-Glasses Water Tracker.debug.xcconfig */,
+				97DFA24B9D155B02CA7B644B /* Pods-Glasses Water Tracker.release.xcconfig */,
+				14A556E2F3068AFA0F28EA27 /* Pods-Glasses Water TrackerTests.debug.xcconfig */,
+				EC5764BF6F66F0BF9C01899A /* Pods-Glasses Water TrackerTests.release.xcconfig */,
+				BDC9FE33071D9E4808343491 /* Pods-Glasses Water TrackerUITests.debug.xcconfig */,
+				4B1FED6C0EA78FBB651A93F0 /* Pods-Glasses Water TrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18AC7F011EFEAC050014E7CE /* Build configuration list for PBXNativeTarget "Glasses Water Tracker" */;
 			buildPhases = (
+				5F79D58EA3F749A29A13735A /* [CP] Check Pods Manifest.lock */,
 				18AC7ECE1EFEAC040014E7CE /* Sources */,
 				18AC7ECF1EFEAC040014E7CE /* Frameworks */,
 				18AC7ED01EFEAC040014E7CE /* Resources */,
+				04F31AB892D1C0756FA8AD33 /* [CP] Embed Pods Frameworks */,
+				CFAD011BF9AD480FAED642E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18AC7F041EFEAC050014E7CE /* Build configuration list for PBXNativeTarget "Glasses Water TrackerTests" */;
 			buildPhases = (
+				177CBE93A06D231B0F43645D /* [CP] Check Pods Manifest.lock */,
 				18AC7EE91EFEAC040014E7CE /* Sources */,
 				18AC7EEA1EFEAC040014E7CE /* Frameworks */,
 				18AC7EEB1EFEAC040014E7CE /* Resources */,
+				EA3F6C6A1F9C16BA08DAABA5 /* [CP] Embed Pods Frameworks */,
+				425AB8C11A1AC72B1F0D05F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18AC7F071EFEAC050014E7CE /* Build configuration list for PBXNativeTarget "Glasses Water TrackerUITests" */;
 			buildPhases = (
+				9ADDC8F44B95FFC4549268E3 /* [CP] Check Pods Manifest.lock */,
 				18AC7EF41EFEAC050014E7CE /* Sources */,
 				18AC7EF51EFEAC050014E7CE /* Frameworks */,
 				18AC7EF61EFEAC050014E7CE /* Resources */,
+				42C4B7450639E84513547550 /* [CP] Embed Pods Frameworks */,
+				778124C35A19913E250AF5FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +320,6 @@
 			files = (
 				18AC7EE51EFEAC040014E7CE /* LaunchScreen.storyboard in Resources */,
 				18AC7EE21EFEAC040014E7CE /* Assets.xcassets in Resources */,
-				18AC7EDD1EFEAC040014E7CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +339,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04F31AB892D1C0756FA8AD33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glasses Water Tracker/Pods-Glasses Water Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		177CBE93A06D231B0F43645D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		425AB8C11A1AC72B1F0D05F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glasses Water TrackerTests/Pods-Glasses Water TrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42C4B7450639E84513547550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glasses Water TrackerUITests/Pods-Glasses Water TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F79D58EA3F749A29A13735A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		778124C35A19913E250AF5FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glasses Water TrackerUITests/Pods-Glasses Water TrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADDC8F44B95FFC4549268E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAD011BF9AD480FAED642E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glasses Water Tracker/Pods-Glasses Water Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3F6C6A1F9C16BA08DAABA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glasses Water TrackerTests/Pods-Glasses Water TrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18AC7ECE1EFEAC040014E7CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AC7F1A1EFEAECA0014E7CE /* SettingsTableViewController.m in Sources */,
 				18AC7EE01EFEAC040014E7CE /* Glasses_Water_Tracker.xcdatamodeld in Sources */,
-				18AC7EDA1EFEAC040014E7CE /* ViewController.m in Sources */,
+				18AC7F101EFEAD090014E7CE /* StatsViewController.m in Sources */,
 				18AC7EE81EFEAC040014E7CE /* main.m in Sources */,
+				18AC7F171EFEAD6D0014E7CE /* EntryManager.m in Sources */,
 				18AC7ED71EFEAC040014E7CE /* AppDelegate.m in Sources */,
+				18AC7F0C1EFEACCA0014E7CE /* TodayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +524,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18AC7EDB1EFEAC040014E7CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18AC7EDC1EFEAC040014E7CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18AC7EE31EFEAC040014E7CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,6 +637,7 @@
 		};
 		18AC7F021EFEAC050014E7CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB8A3E5499D129DE68E11D1 /* Pods-Glasses Water Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YD6XDYJUC5;
@@ -438,6 +651,7 @@
 		};
 		18AC7F031EFEAC050014E7CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97DFA24B9D155B02CA7B644B /* Pods-Glasses Water Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YD6XDYJUC5;
@@ -451,6 +665,7 @@
 		};
 		18AC7F051EFEAC050014E7CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A556E2F3068AFA0F28EA27 /* Pods-Glasses Water TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YD6XDYJUC5;
@@ -465,6 +680,7 @@
 		};
 		18AC7F061EFEAC050014E7CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5764BF6F66F0BF9C01899A /* Pods-Glasses Water TrackerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YD6XDYJUC5;
@@ -479,6 +695,7 @@
 		};
 		18AC7F081EFEAC050014E7CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC9FE33071D9E4808343491 /* Pods-Glasses Water TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YD6XDYJUC5;
 				INFOPLIST_FILE = "Glasses Water TrackerUITests/Info.plist";
@@ -492,6 +709,7 @@
 		};
 		18AC7F091EFEAC050014E7CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1FED6C0EA78FBB651A93F0 /* Pods-Glasses Water TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YD6XDYJUC5;
 				INFOPLIST_FILE = "Glasses Water TrackerUITests/Info.plist";
@@ -522,6 +740,7 @@
 				18AC7F031EFEAC050014E7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AC7F041EFEAC050014E7CE /* Build configuration list for PBXNativeTarget "Glasses Water TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +749,7 @@
 				18AC7F061EFEAC050014E7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AC7F071EFEAC050014E7CE /* Build configuration list for PBXNativeTarget "Glasses Water TrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +758,7 @@
 				18AC7F091EFEAC050014E7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
