@@ -1,5 +1,5 @@
 //
-//  TodayViewController.h
+//  BarGraphCollectionViewCell.h
 //  Glasses Water Tracker
 //
 //  Created by Immanuel Kannan on 24/06/2017.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TodayViewController : UIViewController
+@interface BarGraphCollectionViewCell : UICollectionViewCell
 
 @end

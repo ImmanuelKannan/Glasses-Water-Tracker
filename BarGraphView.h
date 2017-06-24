@@ -1,5 +1,5 @@
 //
-//  StatsViewController.h
+//  BarGraphView.h
 //  Glasses Water Tracker
 //
 //  Created by Immanuel Kannan on 24/06/2017.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StatsViewController : UIViewController
+@interface BarGraphView : UIView
+
+@property (nonatomic, strong) UICollectionView *barGraphCollectionView;
 
 @end
