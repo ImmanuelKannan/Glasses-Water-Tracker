@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, copy) NSDate *date;
 @property (nullable, nonatomic, copy) NSString *dateString;
-@property (nonatomic) int16_t numberOfGlasses;
+@property (nonatomic) NSNumber *numberOfGlasses;
 
 @end
 
