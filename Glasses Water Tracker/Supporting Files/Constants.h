@@ -16,6 +16,7 @@
 #pragma mark - Other Constants
 
     #define kProgressBarCellIdentifier @"progressBarCellIdentifier"
+    #define kEntryEntityName @"Entry"
 
 
 #endif /* Constants_h */
