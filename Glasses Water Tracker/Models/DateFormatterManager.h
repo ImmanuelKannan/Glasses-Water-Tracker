@@ -10,4 +10,11 @@
 
 @interface DateFormatterManager : NSObject
 
++ (instancetype)sharedManager;
+
+- (NSDateFormatter *)entryDateFormat;
+- (NSUInteger)weekNumberForDate: (NSDate *)date;
+
+- (NSDictionary *)firstAndLastDateOfWeekGiven: (NSDate *)date;
+
 @end

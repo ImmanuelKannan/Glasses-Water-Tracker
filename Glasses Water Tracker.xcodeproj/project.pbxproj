@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1803F6571EFED4D900061749 /* DateFormatterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6561EFED4D900061749 /* DateFormatterManager.m */; };
+		1803F65C1EFED7C100061749 /* Entry+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6591EFED7C100061749 /* Entry+CoreDataClass.m */; };
+		1803F65D1EFED7C100061749 /* Entry+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65B1EFED7C100061749 /* Entry+CoreDataProperties.m */; };
 		183CA1021EFEB5AD00852F16 /* BarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CA1011EFEB5AD00852F16 /* BarGraphView.m */; };
 		183CA1051EFEB6F900852F16 /* BarGraphCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CA1041EFEB6F900852F16 /* BarGraphCollectionViewCell.m */; };
+		187D9B221F03DFE600AB7E8A /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D9B211F03DFE600AB7E8A /* DateManager.m */; };
 		18AC7ED71EFEAC040014E7CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7ED61EFEAC040014E7CE /* AppDelegate.m */; };
 		18AC7EE01EFEAC040014E7CE /* Glasses_Water_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AC7EDE1EFEAC040014E7CE /* Glasses_Water_Tracker.xcdatamodeld */; };
 		18AC7EE21EFEAC040014E7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7EE11EFEAC040014E7CE /* Assets.xcassets */; };
@@ -45,10 +49,18 @@
 /* Begin PBXFileReference section */
 		146E5D80503972C2688A9AAD /* libPods-Glasses Water Tracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Glasses Water Tracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A556E2F3068AFA0F28EA27 /* Pods-Glasses Water TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glasses Water TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Glasses Water TrackerTests/Pods-Glasses Water TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1803F6551EFED4D900061749 /* DateFormatterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateFormatterManager.h; sourceTree = "<group>"; };
+		1803F6561EFED4D900061749 /* DateFormatterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateFormatterManager.m; sourceTree = "<group>"; };
+		1803F6581EFED7C100061749 /* Entry+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Entry+CoreDataClass.h"; sourceTree = "<group>"; };
+		1803F6591EFED7C100061749 /* Entry+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Entry+CoreDataClass.m"; sourceTree = "<group>"; };
+		1803F65A1EFED7C100061749 /* Entry+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Entry+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1803F65B1EFED7C100061749 /* Entry+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Entry+CoreDataProperties.m"; sourceTree = "<group>"; };
 		183CA1001EFEB5AD00852F16 /* BarGraphView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarGraphView.h; sourceTree = "<group>"; };
 		183CA1011EFEB5AD00852F16 /* BarGraphView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarGraphView.m; sourceTree = "<group>"; };
 		183CA1031EFEB6F900852F16 /* BarGraphCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarGraphCollectionViewCell.h; sourceTree = "<group>"; };
 		183CA1041EFEB6F900852F16 /* BarGraphCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarGraphCollectionViewCell.m; sourceTree = "<group>"; };
+		187D9B201F03DFE600AB7E8A /* DateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
+		187D9B211F03DFE600AB7E8A /* DateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
 		18AC7ED21EFEAC040014E7CE /* Glasses Water Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glasses Water Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC7ED51EFEAC040014E7CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18AC7ED61EFEAC040014E7CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +132,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		183CA1061EFEBDF600852F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC7ED51EFEAC040014E7CE /* AppDelegate.h */,
+				18AC7ED61EFEAC040014E7CE /* AppDelegate.m */,
+				18AC7F1B1EFEAFC20014E7CE /* Constants.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		18AC7EC91EFEAC040014E7CE = {
 			isa = PBXGroup;
 			children = (
@@ -145,12 +167,10 @@
 		18AC7ED41EFEAC040014E7CE /* Glasses Water Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				18AC7ED51EFEAC040014E7CE /* AppDelegate.h */,
-				18AC7ED61EFEAC040014E7CE /* AppDelegate.m */,
-				18AC7F1B1EFEAFC20014E7CE /* Constants.h */,
 				18AC7F141EFEAD5E0014E7CE /* Models */,
 				183CA0FF1EFEB58D00852F16 /* Views */,
 				18AC7F0D1EFEACD10014E7CE /* Controllers */,
+				183CA1061EFEBDF600852F16 /* Supporting Files */,
 				18AC7EE11EFEAC040014E7CE /* Assets.xcassets */,
 				18AC7EE31EFEAC040014E7CE /* LaunchScreen.storyboard */,
 				18AC7EE61EFEAC040014E7CE /* Info.plist */,
@@ -194,8 +214,16 @@
 		18AC7F141EFEAD5E0014E7CE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1803F6581EFED7C100061749 /* Entry+CoreDataClass.h */,
+				1803F6591EFED7C100061749 /* Entry+CoreDataClass.m */,
+				1803F65A1EFED7C100061749 /* Entry+CoreDataProperties.h */,
+				1803F65B1EFED7C100061749 /* Entry+CoreDataProperties.m */,
 				18AC7F151EFEAD6D0014E7CE /* EntryManager.h */,
 				18AC7F161EFEAD6D0014E7CE /* EntryManager.m */,
+				187D9B201F03DFE600AB7E8A /* DateManager.h */,
+				187D9B211F03DFE600AB7E8A /* DateManager.m */,
+				1803F6551EFED4D900061749 /* DateFormatterManager.h */,
+				1803F6561EFED4D900061749 /* DateFormatterManager.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -501,11 +529,15 @@
 			files = (
 				18AC7F1A1EFEAECA0014E7CE /* SettingsTableViewController.m in Sources */,
 				18AC7EE01EFEAC040014E7CE /* Glasses_Water_Tracker.xcdatamodeld in Sources */,
+				1803F65D1EFED7C100061749 /* Entry+CoreDataProperties.m in Sources */,
+				1803F6571EFED4D900061749 /* DateFormatterManager.m in Sources */,
 				18AC7F101EFEAD090014E7CE /* StatsViewController.m in Sources */,
+				1803F65C1EFED7C100061749 /* Entry+CoreDataClass.m in Sources */,
 				183CA1021EFEB5AD00852F16 /* BarGraphView.m in Sources */,
 				183CA1051EFEB6F900852F16 /* BarGraphCollectionViewCell.m in Sources */,
 				18AC7EE81EFEAC040014E7CE /* main.m in Sources */,
 				18AC7F171EFEAD6D0014E7CE /* EntryManager.m in Sources */,
+				187D9B221F03DFE600AB7E8A /* DateManager.m in Sources */,
 				18AC7ED71EFEAC040014E7CE /* AppDelegate.m in Sources */,
 				18AC7F0C1EFEACCA0014E7CE /* TodayViewController.m in Sources */,
 			);
