@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EntryManager.h"
 #import "StatsViewController.h"
 #import "TodayViewController.h"
 #import "SettingsTableViewController.h"
@@ -25,6 +26,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    [[EntryManager sharedManager] setManagedObjectContext:[[self persistentContainer] viewContext]];
     [self setupTabBarController];
     
     self.window.rootViewController = self.tabBarController;
@@ -46,6 +48,7 @@
     
     SettingsTableViewController *settingsVC = [[SettingsTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
     settingsVC.title = @"Settings";
+    settingsVC.tabBarItem.image = [UIImage imageNamed:@"TabBarIcon_Settings"];
     
     NSArray *vc = [NSArray arrayWithObjects:statsNavigationController, todayVC, settingsVC, nil];
     return vc;
@@ -70,6 +73,8 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [self saveContext];
+//    [self deleteAllData];
 }
 
 
@@ -87,6 +92,7 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+//    [self deleteAllData];
 }
 
 
@@ -133,6 +139,19 @@
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
     }
+    NSLog(@"Context Was Saved");
+}
+
+- (void)deleteAllData {
+    
+    NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:@"Entry"];
+    NSBatchDeleteRequest *deleteRequest = [[NSBatchDeleteRequest alloc] initWithFetchRequest:fetchRequest];
+    
+    NSError *error = nil;
+    [self.persistentContainer.viewContext executeRequest:deleteRequest error:&error];
+    
+    NSLog(@"Deleted all data");
+    
 }
 
 @end
